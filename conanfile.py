@@ -8,6 +8,7 @@ base = python_requires("boost_base/1.69.0@bincrafters/stable")
 
 class BoostCoroutine2Conan(base.BoostBaseConan):
     name = "boost_coroutine2"
+    version = "1.69.0"
     url = "https://github.com/bincrafters/conan-boost_coroutine2"
     lib_short_names = ["coroutine2"]
     header_only_libs = ["coroutine2"]
